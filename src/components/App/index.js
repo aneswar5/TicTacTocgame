@@ -16,7 +16,7 @@ export default class App extends React.Component {
       ],
     };
     this.playerClick = this.playerClick.bind(this);
-    // there we bind for below playerClick if codition this will get an error so we have to bind so we can avoid
+    
   }
 
   playerClick = (i, j) => {
